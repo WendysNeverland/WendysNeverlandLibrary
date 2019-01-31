@@ -18,7 +18,7 @@
 </head>
 <body >
     <div id=app></div>
-    @include('test')
+
     {{-- <div class="grid-container" id="app">
         @include('layouts/menu')
         @yield('content')
