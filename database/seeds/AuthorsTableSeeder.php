@@ -29,5 +29,12 @@ class AuthorsTableSeeder extends Seeder
                 }
             }
         }
+        $role = new App\Role;
+        $role -> role = 'admin';
+        $role -> save();
+        $role = new App\Role;
+        $role -> role = 'user';
+        $role -> save();
+
     }
 }
