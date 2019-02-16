@@ -1,0 +1,15 @@
+.top-bar{
+    background-color: #ffc300;
+    padding: 0;
+    .top-bar-right{
+        .main{
+            background-color: #ffc300;
+        }
+        .login{
+            background-color: #00baad;
+            .loginTextColor{
+                color: #ffc300;
+            }
+        }
+    }
+}

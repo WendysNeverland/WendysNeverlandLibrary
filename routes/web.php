@@ -3,7 +3,7 @@
 include('include/admin.php');
 
 
-Route::get('/w', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 

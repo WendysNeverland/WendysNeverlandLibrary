@@ -14,15 +14,14 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/vendor.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
 </head>
 <body >
     <div id=app></div>
-
-    {{-- <div class="grid-container" id="app">
+    <div class="container" id="app">
         @include('layouts/menu')
         @yield('content')
-    </div> --}}
+    </div>
 </body>
 </html>
 
