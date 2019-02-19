@@ -25,6 +25,20 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        //checked if the user is admin before checking other gates. if user is admin than has access to all.
+        Gate::before(function($user){
+            if($user->roles()->first()=='admin'){
+                return true;
+            }
+        });
+
+        Gate::define('isAdmin', function($user){
+           $role=$user->roles()->first()->role;
+            if($user->roles()->first()->role=='admin'){
+                return true;
+            }
+        });
+
+
     }
 }

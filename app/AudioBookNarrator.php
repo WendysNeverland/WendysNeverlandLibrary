@@ -2,9 +2,9 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Pivot;
 
-class AudioBookNarrator extends Model
+class AudioBookNarrator extends Pivot
 {
 
     protected $guarded = [];
