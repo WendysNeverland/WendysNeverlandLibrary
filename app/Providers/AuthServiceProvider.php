@@ -39,6 +39,13 @@ class AuthServiceProvider extends ServiceProvider
             }
         });
 
+        Gate::define('isUser', function($user){
+            $role=$user->roles()->first()->role;
+             if($user->roles()->first()->role=='user'){
+                 return true;
+             }
+         });
+
 
     }
 }

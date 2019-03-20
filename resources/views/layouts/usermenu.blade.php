@@ -1,9 +1,9 @@
 <div class="top-bar-right">
     <ul class="menu main">
-        <li><a href="/admin/book">Book</a></li>
-        <li><a href="/admin/audiobook">Audiobook</a></li>
-        <li><a href="/admin/author">Author</a></li>
-        <li><a href="/admin/author">Author</a></li>
+        <li><a href="/user/book">Book</a></li>
+        <li><a href="/user/audiobook">Audiobook</a></li>
+        <li><a href="/user/author">Author</a></li>
+        <li><a href="/user/author">Author</a></li>
     </ul>
 </div>
 <div class="top-bar-right">

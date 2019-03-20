@@ -1,6 +1,8 @@
 <?php
 
 include('include/admin.php');
+include('include/user.php');
+include('include/guest.php');
 
 
 Route::get('/', function () {
