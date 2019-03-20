@@ -3,7 +3,6 @@
         <li><a href="/admin/book">Book</a></li>
         <li><a href="/admin/audiobook">Audiobook</a></li>
         <li><a href="/admin/author">Author</a></li>
-        <li><a href="/admin/author">Author</a></li>
     </ul>
 </div>
 <div class="top-bar-right">

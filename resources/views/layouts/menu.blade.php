@@ -8,7 +8,13 @@
     @guest
         @include('layouts/guestmenu')
     @else
-        @include('layouts/usermenu')
+        @if(Auth::user()->roles()->first()->role=='admin')
+            @include('layouts/adminmenu')
+        @else
+            @include('layouts/usermenu')
+        @endif
     @endguest
 
 </div>
+
+
